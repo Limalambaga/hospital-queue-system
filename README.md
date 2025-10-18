@@ -1,0 +1,88 @@
+**Docta**
+> Eliminating hospital gate queues and pharmacy payment bottlenecks across Africa
+
+
+
+## 🚨 The Problem
+
+Every day across Africa, patients lose hours of their lives:
+
+- **6 AM arrival** → Stand in queue for 2-3 hours just to get an entry ticket/pass
+- **Finally see the doctor** → Stand in another long pharmacy queue to pay for medications
+- **Healthcare access** becomes a full-day affair when it should take minutes
+
+## 💡 Our Solution
+
+A distributed healthcare queue management system that:
+
+1. **Virtual Entry Tickets**: Get your hospital pass on your phone before leaving home
+2. **Digital Pharmacy Payments**: Pay for medications via mobile money, just go to collect
+3. **Real-time Queue Visibility**: Know exactly when to arrive based on current wait times
+
+## 🌍 Why This Matters
+
+- **60-80% reduction** in waiting time
+- **Works offline-first** for low-connectivity areas
+- **Pan-African scalability** from Cameroon to the entire continent
+- **Collaboration-ready** for inter-hospital referrals and resource sharing
+
+## 🏗️ System Architecture
+
+This is a **distributed system** with:
+
+- **Transparency**: Real-time queue visibility, pricing, and service metrics
+- **Scalability**: Independent hospital nodes, microservices architecture
+- **Fault Tolerance**: Offline-first operation, data replication, graceful degradation
+- **Collaboration**: Inter-hospital referrals, pharmacy networks, shared resources
+
+[View Detailed Architecture →](docs/ARCHITECTURE.md)
+
+## 🚀 Project Status
+
+**Current Phase**: Planning & Initial Development
+
+- [ ] Core queue management service
+- [ ] Mobile application (React Native)
+- [ ] Payment gateway integration
+- [ ] Hospital admin dashboard
+- [ ] SMS/USSD fallback system
+
+## 🤝 Contributing
+
+We welcome contributions from developers, healthcare professionals, and anyone passionate about improving healthcare access in Africa!
+
+[Read Contributing Guidelines →](docs/CONTRIBUTING.md)
+
+## 📖 Documentation
+
+- [About the Project](docs/ABOUT.md) - Detailed problem statement and vision
+- [Architecture Overview](docs/ARCHITECTURE.md) - Technical design and implementation
+- [API Documentation](docs/API.md) - Coming soon
+- [Deployment Guide](docs/DEPLOYMENT.md) - Coming soon
+
+## 🛠️ Tech Stack
+
+- **Mobile**: React Native (iOS/Android)
+- **Backend**: Node.js/Go microservices
+- **Database**: PostgreSQL + MongoDB + Redis
+- **Message Queue**: Apache Kafka
+- **Orchestration**: Kubernetes
+- **Payments**: Flutterwave, MTN Mobile Money, Orange Money
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🌟 Support
+
+If you believe in this mission, please ⭐ star this repo and share it with others!
+
+## 📧 Contact
+
+- **Project Lead**: [Your Name]
+- **Email**: [Your Email]
+- **Twitter**: [@YourHandle]
+
+---
+
+**Built with ❤️ for Africa's healthcare transformation**
